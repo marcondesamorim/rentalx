@@ -1,0 +1,7 @@
+auto rename tag
+Dracula official
+EditorConfig for VC Code
+ESlint
+Html Preview
+Live Server
+Omni Theme
