@@ -6,3 +6,5 @@ Html Preview
 Live Server
 Omni Theme
 Docker 
+
+yarn typeorm migration:create -n CreateCategories
