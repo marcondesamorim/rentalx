@@ -118,7 +118,8 @@ export default {
     // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
 
     moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
-        prefix: "<rootDir>/src/",
+        //    prefix: "<rootDir>/src/",
+        prefix: "<rootDir>/",
     }),
 
     // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
@@ -195,7 +196,7 @@ export default {
 
     // The test environment that will be used for testing
 
-    // testEnvironment: "jest-environment-node",
+    testEnvironment: "node",
 
     // Options that will be passed to the testEnvironment
 

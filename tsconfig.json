@@ -1,5 +1,5 @@
 {
-    "compilerOptions": {
+     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
         "rootDir": ".",
@@ -8,7 +8,7 @@
             "@modules/*": ["./src/modules/*"],
             "@config/*": ["./src/config/*"],
             "@shared/*": ["./src/shared/*"],
-            "@utils/*": ["./src/utils/*"],
+            "@utils/*": ["./src/utils/*"]
         },
         "esModuleInterop": true,
         "experimentalDecorators": true,
